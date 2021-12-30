@@ -1,5 +1,6 @@
 # inverted-pendulum-fuzzy-control-
 inverted pendulum fuzzy control python code (python 2.7.18)
+implemented controller.py
 
 We have 3 general functions for 3 main steps:
 fuzzification function  1
