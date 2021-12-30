@@ -23,7 +23,28 @@ Using the 5 inputs of the center of mass function of the shape resulting from th
 We get the inputs and the fuzzy force set by the integration method and get it
 We return in the form of output force.
 Example To check a membership to a fuzzy force set:
-![image](https://user-images.githubusercontent.com/51990802/147743918-063fbf47-357a-4b9d-82cb-fffb2631b43e.png)
+points=np.linspace(-100,100,5000)
+# print(points)
+# exit()
+dx=points[1]-points[0]
+sum = 0
+sum2= 0
+for point in points:
+# print(point)
+left_fast = self.left_fast_membership(point)
+# print(left_fast)
+if left_fast>max_left_fast:
+left_fast=max_left_fast
+# print(left_fast)
+# exit()
+def left_fast_membership(self,x):
+if x>=-100 and x<=-80:
+y =0.05*x+5
+elif x>-80 and x<=-60:
+y =-0.05*x-3
+else:
+y = 0
+return abs(y) if y>0 else 0
 
 
 Finally, our output is as follows:
