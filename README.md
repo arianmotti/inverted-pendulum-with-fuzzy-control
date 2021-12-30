@@ -23,7 +23,12 @@ Using the 5 inputs of the center of mass function of the shape resulting from th
 We get the inputs and the fuzzy force set by the integration method and get it
 We return in the form of output force.
 Example To check a membership to a fuzzy force set:
+
+
 ![image](https://user-images.githubusercontent.com/51990802/147744028-0344aa81-44ed-4b4e-a3f5-99000fdc9d63.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/51990802/147744048-2d7aa246-218a-45d9-8c6f-ab564f013dbf.png)
 
 
